@@ -1,0 +1,89 @@
+---
+title: Market Cap y Enterprise Value
+description: Capitalización de una Empresa. ¿Cuanto vale una Empresa?
+---
+
+import { Icon } from '@astrojs/starlight/components';
+
+Vamos a repasar para asegurarnos de que todo quede claro. 
+
+:::note
+Son conceptos básicos, pero fundamentales para poder seguir con la valoración más adelante. Aunque no será necesario calcularlos manualmente, ya que los obtenemos de muchas fuentes, y en [Ahorros Familiares]() los calculamos de forma automática.
+
+```sh
+
+MARKETCAP = ( NUMERO de ACCIONES * PRECIO de la ACCIÓN )
+DEUDA FINANCIERA NETA = DEUDA FINANCIERA – CAJA
+Enterprise Value (EV) = ( MARKETCAP + DEUDA FINANCIERA – CAJA )
+
+```
+:::
+
+Estos términos son ***fundamentales*** cuando analizamos empresas y queremos evaluar su valor. Para que lo comprendáis mejor, vamos a utilizar un ejemplo práctico, que creo que os ayudará a entender la diferencia entre ambos conceptos.
+
+## Ejemplo del restaurante en Madrid
+
+Imaginad que queréis comprar una **restaurante en Madrid** (uno de los mejores lugares para vivir). Le ponemos un precio de **3.000.000 EUR**, y nos hemos decidido a comprarla.
+
+### ¿Qué es el Market Cap?
+
+El **Market Cap** es simplemente el **precio de la restaurante**. En este caso, son los **3.000.000 EUR** que pagaríamos. Si esta restaurante fuese una empresa y estuviera en la bolsa, esos **3.000.000 EUR** serían su **capitalización de mercado**. Es decir, el **Market Cap** es el **precio total** por el que la compañía (o el restaurante) está valorada en el mercado.
+
+### ¿Qué es el Enterprise Value?
+
+Ahora bien, el **Enterprise Value** es algo más completo. Vamos a suponer que, al comprar el restaurante, encontramos **1.000.000 EUR en efectivo** en la cocina. Esto quiere decir que, en realidad, no hemos pagado 3.000.000 EUR, sino solo **2.000.000 EUR**, porque tenemos ese millón de euros en la restaurante. Este sería el valor ajustado.
+
+Pero ahora imaginad que también descubrimos que hay una **crédito de 2.000.000 EUR** sobre la restaurante. Esto cambia las cosas. Ahora debemos **añadir la deuda** (siendo un crédito una deuda) al precio de compra. 
+
+:::caution[Presta atención a los signos de las partes]
+Por tanto, el cálculo sería
+
+- Precio del restaurante: **3.000.000 EUR**
+- <span className="text-red-500 font-bold">[ + Deuda ]</span> : **2.000.000 EUR**
+- <span className="text-green-700 font-bold">[ - Caja o efectivo ]</span> : **1.000.000 EUR**
+  
+> El valor total de la restaurante o el **Enterprise Value** sería **4.000.000 EUR**.
+
+La <span className="text-red-500 font-bold">Deuda</span> la sumamos <span className="text-red-500 font-bold">[+]</span> dado que es un ***pasivo*** y tienes que pagarla igual que has pagado el precio del restaurante, 
+
+y el <span className="text-green-700 font-bold">Caja o efectivo</span> lo restamos <span className="text-green-700 font-bold">[-]</span> dado que es un ***activo*** y es algo que puedes usar para pagar.
+:::
+
+
+### Resumen del Enterprise Value
+
+- **Market Cap** es el precio de la empresa (o de la restaurante), en este caso **3.000.000 EUR**.
+- **Enterprise Value** incluye tanto el precio de la empresa, la deuda y el efectivo, lo que nos da un valor ajustado de **4.000.000 EUR**.
+
+## Explicación Financiera del Market Cap
+
+El **Market Cap**, o **capitalización bursátil**, es el **precio de mercado de una empresa**. Se calcula multiplicando el **precio por acción** por el **número total de acciones en circulación**. 
+
+Por ejemplo, si una acción de **Apple** vale **229 USD** y hay **15.204.000 acciones en circulación**, entonces el Market Cap de Apple sería **229 * 15.204.000 = 3,4 trillones USD**.
+
+Este es un dato que nunca tenéis que calcular manualmente, ya que siempre está disponible en páginas como **Yahoo Finance**, pero es importante entender cómo se obtiene.
+
+## Trillones, Billones ...
+
+En términos anglosajones:
+- Un **billion** equivale a **1.000 millones**.
+- Un **trillion** equivale a **1.000 billions**.
+
+:::caution
+En Europa, un **billón europeo** equivale a un **trillón americano**.
+:::
+
+En **Apple**, por ejemplo, su valor de **3,4 trillones USD** sería **3,4 billón** en los sistemas Europeos.
+
+## ¿Por Qué es Importante el Market Cap?
+
+El **Market Cap** nos da una referencia sobre **el tamaño de la empresa**, pero no nos dice si está infravalorada o sobrevalorada. Para ello, necesitamos calcular su **valor intrínseco**. De todas formas, entender el **Market Cap** es fundamental, ya que es un paso previo para cualquier análisis de valoración más profundo.
+
+## Conclusión
+
+En resumen:
+- El **Market Cap** es simplemente el **precio de la empresa** en el mercado.
+- El **Enterprise Value** es una medida más completa que incluye el **precio de la empresa**, **la deuda** y **el efectivo disponible**.
+  
+Entender ambos conceptos es clave para evaluar el verdadero valor de una empresa y tomar decisiones informadas de inversión.
+

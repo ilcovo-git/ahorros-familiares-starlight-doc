@@ -1,0 +1,154 @@
+---
+title: Ejemplos Calculo Free Cash Flow
+description: Ejemplos Calculo Free Cash Flow.
+---
+
+### Breve Resumen
+
+#### ¿Qué es el Free Cash Flow?
+
+El **Free Cash Flow (FCF)** es una medida financiera que representa la cantidad de efectivo que una empresa genera después de descontar el gasto de capital necesario para mantener o expandir sus activos. En otras palabras, el FCF es el dinero que queda disponible para los accionistas después de que la empresa haya invertido en su negocio.
+
+El FCF es una métrica clave para evaluar la salud financiera de una empresa, ya que indica cuánto efectivo puede generar la empresa de sus operaciones básicas. Un FCF positivo significa que la empresa está generando más efectivo del que está gastando, lo que puede ser una señal de solidez financiera. Por otro lado, un FCF negativo puede indicar que la empresa está gastando más de lo que está generando, lo que puede ser una señal de problemas financieros.
+
+---
+
+## Ejemplos de Cálculo del Free Cash Flow
+
+El cálculo del **Free Cash Flow (FCF)** puede variar ligeramente dependiendo de la fuente de información y la metodología utilizada. A continuación, se presentan algunos ejemplos comunes de cómo se puede calcular el FCF:
+
+```markdown
+FCF = EBITDA - CAPEX Mantenimiento - Intereses - Impuestos  - Variación del Working Capital
+```
+
+:::note[Meta Platforms Inc. (Facebook)]
+|| Concepto                               | Ejemplo 2023 (En Millones) |
+|-|----------------------------------------|-----------------------|
+||**EBIT (Beneficio antes de intereses e impuestos)**|0,00 	|
+|(+)|**Depreciación y amortización** |0,00|
+||**EBITDA**|0,00|
+||||
+|(-/+)|**Intereses**|0,00 |
+|(-)|**Taxes o Impuesto**|0,00|
+|(-)|**Capex de Mantenimiento**|0,00|
+|(-/+)|**Variación Working Capital**|0,00|
+||||
+||**Free Cash Flow**|***0,00***|
+:::
+
+### ¿Por qué preferir la depreciación sobre la amortización en cálculos financieros?
+
+- **Depreciación**: Refleja la reducción de valor de los **activos tangibles** (maquinaria, edificios, etc.), y es la mejor aproximación para entender los gastos de **mantenimiento** de estos activos.
+- **Amortización**: Se refiere a la reducción del valor de **activos intangibles** (como patentes, licencias, software), muchas veces relacionados con **adquisiciones** de intangibles.
+
+#### ¿Qué hacer si la compañía presenta la depreciación y amortización juntas?
+
+1. Si los datos están combinados, **se toma todo el conjunto** (depreciación + amortización), porque no tienes los valores separados.
+2. **Siempre que puedas** elegir, es mejor usar únicamente el dato de **depreciación**, ya que es una aproximación más precisa para calcular los gastos de mantenimiento en activos físicos.
+
+
+
+:::note[Union Pacific]
+|| Concepto                               | Ejemplo 2023 (En Millones) |
+|-|----------------------------------------|-----------------------|
+||**EBIT (Beneficio antes de intereses e impuestos)**|0,00 	|
+|(+)|**Depreciación y amortización** |0,00|
+||**EBITDA**|0,00|
+||||
+|(-/+)|**Intereses**|0,00 |
+|(-)|**Taxes o Impuesto**|0,00|
+|(-)|**Capex de Mantenimiento**|0,00|
+|(-/+)|**Variación Working Capital**|0,00|
+||||
+||**Free Cash Flow**|***0,00***|
+:::
+
+
+:::caution[¿Como sacamos el Capex de Mantenimiento?]
+El **Capex de Mantenimiento** es el gasto de capital necesario para mantener los activos existentes de una empresa en funcionamiento. Para calcular el Capex de Mantenimiento, se debe restar el gasto de capital total de la inversión en activos fijos.
+
+lo sacamos dal flujo de caja de Google la partida ***Purchases of property and equipment*** que es (32.251)	
+Que Pasa ? que esto es el CAPEX y nosotros queremos solamente el CAPEX de Mantenimiento, por lo que debemos restarle el CAPEX de Crecimiento al no tenerlo nos dirigimos a la partida de Depreciación que siendo menor nos dice que Google la diferenicia lo ha invertido en activos fijos que son en este caso como sabemos el tema del cloud y la IA. conclución CAPEX (M) = MENOR_ENTRE(Purchases of property and equipment, Depreciación) siendo la diferencia entre ellos el CAPEX de Crecimiento.
+
+CAPEX (Crecimiento) = 32.251 - 11.946 = 20.305
+:::
+
+:::note[Alphabet Inc.]
+|| Concepto                               | Ejemplo 2023 (En Millones) |
+|-|----------------------------------------|-----------------------|
+||**EBIT (Beneficio antes de intereses e impuestos)**|84.293,00 	|
+|(+)|**Depreciación y amortización** |11.946,00|
+||**EBITDA**|96.239,00|
+||||
+|(-/+)|**Intereses**|1.424,00 |
+|(-)|**Taxes o Impuesto**|11.922,00|
+|(-)|**Capex de Mantenimiento**|11.946,00|
+|(-/+)|**Variación Working Capital**|0,00|
+||||
+||**Free Cash Flow**|***73.795,00***|
+:::
+:::danger[¿Qué pasa si la empresa no presenta la variación del Working Capital?]
+Si la empresa no presenta la variación del Working Capital, se puede asumir que no ha habido cambios significativos en los activos y pasivos circulantes de la empresa durante el período analizado. En este caso, se puede omitir este término en el cálculo del FCF.
+
+---
+
+O en el caso de Alphabet Inc. (Google) siendo una empresa de tecnología, no tiene WC, no teniendo inventario.
+Recordamos la formula del Working Capital es:
+
+```markdown 
+Working Capital = Inventario - Cuenta Clientes + Cuenta Proveedores
+```
+:::
+
+:::note[Amazon]
+|| Concepto                               | Ejemplo 2023 (En Millones) |
+|-|----------------------------------------|-----------------------|
+||**EBIT (Beneficio antes de intereses e impuestos)**|36.852,00 	|
+|(+)|**Depreciación y amortización** |48.633,00|
+||**EBITDA**|85.515,00|
+||||
+|(-/+)|**Intereses**|-233,00 |
+|(-)|**Taxes o Impuesto**|7.120,00|
+|(-)|**Capex de Mantenimiento**|48.633,00|
+|(-/+)|**Variación Working Capital**|-1.485,00|
+||||
+||**Free Cash Flow**|***28.014,00***|
+:::
+
+:::caution[Working Capital de Amazon]
+```markdown 
+Working Capital = Inventario - Cuenta Clientes + Cuenta Proveedores
+```
+
+---
+
+**2022**
+
+- Inventories **(+)** 34.405,00
+- Accounts receivable, net and other **(+)** 42.360,00
+- Accounts payable **(-)** 79.600,00
+
+y en el caso de Amazon partida excepcional de 
+- Unearned revenue (Ingreso Diferido) (Amazon Prime Memberships) **(-)** 13.227,00
+
+```Working Capital 2003``` ***-16.122,00***
+
+**2023**
+
+- Inventories **(+)** 33.318,00
+- Accounts receivable, net and other **(+)** 52.253,00
+- Accounts payable **(-)** 84.981,00
+
+y en el caso de Amazon partida excepcional de 
+
+- Unearned revenue (Ingreso Diferido) (Amazon Prime Memberships) **(-)** 15.227,00
+
+```Working Capital 2003``` ***-14.637,00***
+
+
+La variación del Working Capital de Amazon es de ***1.485,00*** en el 2023. Han tenido que aportar a la bolsa del WC.
+:::
+
+:::caution[¿como sacamos los intereses?]
+Other income (expense), net
+:::

@@ -1,0 +1,112 @@
+---
+title: Principales Métricas de Rentabilidad
+description: APrincipales Métricas de Rentabilidad.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+En las métricas de rentabilidad hay 3 principales que veremos a continuación. Aunque os podría ahorrar algunos cálculos, como los de **ROE** y **ROA**, son útiles en el análisis de compañías financieras, así que los veremos igualmente.
+
+---
+
+## ROIC
+
+El **ROIC** (Return On Invested Capital) es una de las métricas más importantes. En español, se traduce como el **Retorno sobre el Capital Invertido**, y nos permite medir la rentabilidad de una empresa al invertir su capital. Es decir, por cada dólar que una empresa invierte, ¿cuánto beneficio operativo adicional es capaz de generar?
+
+Para que lo entendáis mejor, vamos con la fórmula:
+
+```js
+ROIC = (EBIT * (1 - T)) / (Equity + Deuda Financiera Total + Operating Leases - Inversiones a Corto Plazo)
+```
+
+:::tip[Donde]
+- **EBIT** es el beneficio operativo.
+- **T** es la tasa impositiva efectiva.
+- **Equity** es el patrimonio neto.
+- **Deuda Financiera Total** incluye deuda financiera a corto y largo plazo.
+- **Operating Leases** son los gastos por alquileres.
+- **Inversiones a Corto Plazo** se restan porque representan exceso de caja no utilizado operativamente.
+:::
+
+### ¿Qué nos indica el ROIC?
+El **ROIC** nos dice cuánto dinero está generando la empresa con su actividad productiva por cada euro invertido. Un **ROIC** del 20%, por ejemplo, indica que por cada euro invertido en la actividad productiva de la empresa, se genera 1,2 euros.
+
+---
+
+## ROE
+
+El **ROE** (Return on Equity) es el retorno sobre el patrimonio neto. Es una métrica fácil de calcular y nos mide la rentabilidad de una empresa en relación con el beneficio obtenido y su patrimonio neto.
+
+```js
+ROE = Beneficio Neto / Patrimonio Neto
+```
+
+Sin embargo, el **ROE** es más útil en compañías financieras.
+
+## ROA
+
+El **ROA** (Return on Assets) es el retorno sobre los activos, que mide cuánto beneficio genera una empresa en relación con sus activos totales.
+
+```js
+ROA = Beneficio Neto / Activos Totales
+```
+
+
+Es muy utilizado en la valoración de compañías financieras, donde los activos juegan un papel crucial en la generación de ingresos.
+
+---
+
+## Ejemplo del ROIC
+
+Veamos un ejemplo práctico de cómo calcular el **ROIC**. Imaginemos que una empresa tiene los siguientes datos:
+
+- **EBIT** = 46.751
+- **Tasa Impositiva (T)** = 17.6%
+- **Equity** = 153.168
+- **Deuda Financiera Total** = 18.385
+- **Operating Leases** = 1.245
+- **Inversiones a Corto Plazo** = 23.541
+
+### Cálculo del ROIC
+
+{/* <Steps> */}
+
+#### 1. Parte Superior de la Fórmula (EBIT ajustado por impuestos)
+
+```js
+EBIT * (1 - T) = 46.751 * (1 - 0.176) = 46.751 * 0.824 = 38.530,62
+```
+
+#### 2. Parte Inferior de la Fórmula (Capital Invertido)
+
+```js
+Capital Invertido = Equity + Deuda Financiera Total + Operating Leases - Inversiones a Corto Plazo = 153.168 + 18.385 + 1.245 - 23.541 = 149.257
+```
+
+
+#### 3. Cálculo Final del ROIC
+
+```js
+ROIC = 38.530,62 / 149.257 = 0,258 = 25,8%
+```
+{/* </Steps> */}
+
+En este caso, la empresa tiene un **ROIC** del 25,8%, lo que indica que genera una rentabilidad considerable con el capital invertido.
+
+---
+
+## ROIC por sectores
+
+Cada sector tiene un **ROIC** diferente. En promedio, el mercado tiene un **ROIC** entre el 13% y el 14%. Las compañías con **ROIC** superiores a ese porcentaje son consideradas más rentables que la media del mercado. Sin embargo, es importante recordar que un **ROIC** alto no siempre garantiza el éxito; la capacidad de reinversión también es clave.
+
+---
+
+## Importancia del ROIC en la Inversión
+
+El difunto Charlie Munger, quien fue socio de Warren Buffett, solía decir que una empresa con un **ROIC** alto y una capacidad de reinversión sólida está condenada al éxito. Es importante encontrar empresas con altos **ROICs** y fuertes **ventajas competitivas**, ya que estas compañías tienden a generar rendimientos significativos a largo plazo.
+
+---
+
+## Conclusión
+
+El **ROIC** es una de las métricas más importantes a la hora de evaluar la rentabilidad y eficiencia de una empresa. Nos ayuda a entender qué tan bien una empresa utiliza su capital para generar beneficios. Es fundamental para identificar empresas que puedan generar rendimientos consistentes a lo largo del tiempo. A lo largo del curso, veremos más ejemplos y detalles para que dominéis este concepto.

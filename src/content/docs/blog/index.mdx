@@ -1,0 +1,39 @@
+---
+title: Blog de Ahorros Familiares
+description: Blog de Ahorros Familiares
+template: splash
+hero:
+  tagline: Blog de Ahorros Familiares
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Consulta la guía de inicio
+      link: /guides/bienvenida/
+      icon: right-arrow
+    - text: Prueba nuestra App
+      link: https://app.ahorrosfamiliares.com/
+      icon: external
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<LinkCard
+		title="Un Resumen de Contabilidad"
+  		href="./un-resumen-de-contabilidad/"
+	/>
+	<LinkCard
+		title="Tasa de Reinversión"
+    		href="./tasa-de-reinversion/"
+	/>
+	<LinkCard
+		title="Un Resumen de Contabilidad"
+  		href="./un-resumen-de-contabilidad/"
+	/>
+	<LinkCard
+		title="Un Resumen de Contabilidad"
+  		href="./un-resumen-de-contabilidad/"
+	/>
+</CardGrid>
+
