@@ -3,7 +3,7 @@ title: Tasa de Reinversión
 description: Tasa de Reinversión
 ---
 
-Hablamos de que era muy importante tener una compañía que generase un alto **ROIC**. Sin embargo, lo que no hay que olvidar es que puedes ser un muy buen gestor y generar un alto ROIC, pero esto no garantiza el éxito si no eres capaz de reinvertir capital en tu negocio. Es como tener un súper coche y no tener dinero para echarle combustible: tienes el activo, pero no puedes disfrutarlo. 
+Ahora Hablamos de que era muy importante tener una compañía que generase un alto **ROIC**. Sin embargo, lo que no hay que olvidar es que puedes ser un muy buen gestor y generar un alto ROIC, pero esto no garantiza el éxito si no eres capaz de reinvertir capital en tu negocio. Es como tener un súper coche y no tener dinero para echarle combustible: tienes el activo, pero no puedes disfrutarlo. 
 
 Así que la **tasa de reinversión** es algo crucial, no basta con tener un alto ROIC, sino que también necesitas una alta capacidad para reinvertir en tu negocio. Lo importante aquí es entender lo siguiente:
 
