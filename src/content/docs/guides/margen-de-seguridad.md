@@ -33,7 +33,8 @@ Este margen nos indica que estamos comprando la acción con un **descuento del 3
 
 El gráfico a continuación muestra cómo el precio de mercado de una acción puede estar por debajo de su valor intrínseco, lo que representa un margen de seguridad:
 
-
 El precio de mercado está representado en azul, mientras que el valor intrínseco está representado en rojo. La diferencia entre ambos refleja el **margen de seguridad**.
+
+![Grafico margen de seguridad](../../../../public/margen-de-seguridad.webp)
 
 
