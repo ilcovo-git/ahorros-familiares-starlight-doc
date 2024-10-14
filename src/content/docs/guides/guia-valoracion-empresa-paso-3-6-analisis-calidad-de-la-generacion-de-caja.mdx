@@ -3,12 +3,11 @@ title: Análisis de la Generación de Caja
 description: Análisis cualitativo, Calidad de la Generación de Caja
 ---
 
-import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-<LinkCard
-	title="Back to Calidad"
-	href="./guia-valoracion-empresa-paso-3-analisis-calidad"
-/>
+import FooterLinkAnalisisCalidad  from '../../../components/FooterLinkAnalisisCalidad.astro';
+import HeaderBackToAnalisisCalidad from '../../../components/HeaderBackToAnalisisCalidad.astro';
+
+<HeaderBackToAnalisisCalidad />
 
 La **generación de caja** es un aspecto fundamental para medir la salud financiera de una empresa. Nos permite saber cómo de bien la empresa convierte sus beneficios contables en efectivo real, lo cual es clave para poder financiar su crecimiento, pagar deuda, recompensar a los accionistas o realizar nuevas inversiones.
 
@@ -61,36 +60,5 @@ El **análisis de la generación de caja** es esencial para comprender si una em
 ### Apartados : Análisis de Calidad de las Empresas
 
 ---
-
-<CardGrid>
-	<LinkCard
-		title="Calidad de los Ingresos"
-  		href="./guia-valoracion-empresa-paso-3-1-analisis-calidad-de-los-ingresos"
-	/>
-	<LinkCard
-		title="Calidad de los Beneficios"
-    		href="./guia-valoracion-empresa-paso-3-2-analisis-calidad-de-los-beneficios"
-	/>
-	<LinkCard
-		title="Calidad de los Margenes"
-			href="./guia-valoracion-empresa-paso-3-3-analisis-calidad-de-los-margenes"
-	/>
-	<LinkCard
-		title="Calidad de la Rentabilidad y Eficiencia"
-  		href="./guia-valoracion-empresa-paso-3-4-analisis-calidad-de-la-rentabilidad-y-eficiencia"
-	/>
-	<LinkCard
-		title="Calidad de los Salud Financiera"
-  		href="./guia-valoracion-empresa-paso-3-5-analisis-calidad-de-la-salud-financiera"
-	/>
-	<LinkCard
-		title="Calidad de la Generación de Caja"
-  		href="./guia-valoracion-empresa-paso-3-6-analisis-calidad-de-la-generacion-de-caja"
-	/>
-	<LinkCard
-		title="Calidad de los Riesgos"
-  		href="./guia-valoracion-empresa-paso-3-7-analisis-calidad-de-los-riesgos"
-	/>
-</CardGrid>
-
+<FooterLinkAnalisisCalidad />
 ---
