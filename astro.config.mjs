@@ -127,7 +127,7 @@ export default defineConfig({
                     { label: '🚀4. Análisis Competitividad', slug: 'guides/guia-valoracion-empresa-paso-4-analisis-competitividad' },
                     { label: '⭐5. Gestión del Capital', slug: 'guides/guia-valoracion-empresa-paso-5-gestion-del-capital' },
                     { label: '6. Cierre Valoración', slug: 'guides/guia-valoracion-empresa-paso-6-cierre-valoracion' },
-                    { label: '7. Ejemplos Chekc List', slug: 'guides/guia-valoracion-empresa-paso-7-ejemplos-de-check-list' },
+                    { label: '7. Ejemplos Check List', slug: 'guides/guia-valoracion-empresa-paso-7-ejemplos-de-check-list' },
                 ],
             },
             {
