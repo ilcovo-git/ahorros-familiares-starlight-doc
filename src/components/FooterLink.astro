@@ -1,0 +1,21 @@
+---
+import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+const { linkList, header } = Astro.props;
+
+// console.log(linkList);
+---
+
+<h3 class="mb-10">{header}</h3>
+
+<CardGrid>
+    {
+        linkList.map((link: any) => (
+            <LinkCard
+                title={link.title}
+                href={link.href}
+                description={link.description}
+            />
+        ))
+    }
+</CardGrid>
