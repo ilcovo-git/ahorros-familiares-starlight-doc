@@ -145,8 +145,8 @@ export default defineConfig({
                 label: 'Empresas',
                 items: [
                     // Each item here is one entry in the navigation menu.
-                    { label: 'Acciones de Consumo', slug: 'guides/invertir-en-empresas-de-consumo' },
-                    { label: 'Acciones Minoristas', slug: 'guides/invertir-en-empresas-minoristas' },
+                    { label: 'Acciones de Consumo (Staples)', slug: 'guides/invertir-en-empresas-de-consumo' },
+                    { label: 'Acciones Minoristas (Retails)', slug: 'guides/invertir-en-empresas-minoristas' },
                     { label: 'Acciones Industriales', slug: 'guides/invertir-en-empresas-industriales' },
                     { label: 'Acciones Tecnologícas', slug: 'guides/invertir-en-empresas-tecnologicas' },
                     { label: 'Acciones Financieras', slug: 'guides/invertir-en-empresas-financieras' },
