@@ -3,13 +3,16 @@ title: Bienvenida!
 description: Bienvenida! a la documentación de Ahorros Familiares
 ---
 
+import { Icon, Card } from '@astrojs/starlight/components';
+// import CustomCard from '../../components/CustomCard.astro';
+
 Bienvenida! a la documentación de Ahorros Familiares.
 
 Prueba nuestra 🚀<a href="https://www.app.ahorrosfamiliares.com" target="_blank">App Ahorros Familiares</a> donde podrás contar con el analisis de expertos inversores.
 
 ## Destacamos de nuestra guía al inveror
 
-> Léeme ⭐[Valoración Automatizada](./valoracion-automatizada) , de nuestra aplicación. 
+> Léeme ⭐[Valoración Automatizada](/guides/valoracion-automatizada) , de nuestra aplicación. 
 
 > Léeme ⭐[Value Investing](./value-investing) , como investe Warren Buffett.
 
@@ -66,3 +69,11 @@ var fun = function lang(l) {
 La [constelación de Andrómeda](<https://es.wikipedia.org/wiki/Andr%C3%B3meda_(constelaci%C3%B3n)>) es más visible en el cielo nocturno durante el mes de noviembre en latitudes entre `+90°` y `−40°`.
 
 </details>
+
+<Icon name="open-book" />
+
+	<Card title="Update content" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+
+{/* <CustomCard>Components can also contain **nested content**.</CustomCard> */}

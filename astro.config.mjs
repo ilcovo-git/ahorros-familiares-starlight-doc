@@ -9,6 +9,7 @@ import netlify from '@astrojs/netlify';
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
+        tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 4, },
         title: 'A.F. Docs',
         customCss: [
             // Ruta a tus estilos base de Tailwind:
@@ -135,6 +136,7 @@ export default defineConfig({
                 items: [
                     // Each item here is one entry in the navigation menu.
                     { label: '⭐Construye tú Cartera de Inversión', slug: 'guides/construye-tu-cartera-de-inversion' },
+                    { label: 'Gestión de Liquidez', slug: 'guides/gestion-de-liquidez' },
                     { label: 'Mantenimiento de la Cartera', slug: 'guides/mantenimiento-de-la-cartera' },
                     { label: 'Venta de posiciones de la Cartera', slug: 'guides/venta-de-posiciones-de-la-cartera' },
                     { label: '⭐Psicología de la Inversión', slug: 'guides/psicologia-de-la-inversion' },
@@ -161,7 +163,24 @@ export default defineConfig({
                     // Each item here is one entry in the navigation menu.
                     { label: 'Small Caps', slug: 'guides/small-caps' },
                     { label: 'Situaciones Especiales', slug: 'guides/situaciones-especiales' },
-                    { label: 'Renta Fija', slug: 'guides/renta-fija' },
+                ],
+            },
+            {
+                label: 'Renta Fija',
+                items: [
+                    // Each item here is one entry in the navigation menu.
+                    { label: '...', slug: 'guides/renta-fija' },
+                    { label: '...', slug: 'guides/renta-fija' },
+                    { label: '...', slug: 'guides/renta-fija' },
+                ],
+            },
+            {
+                label: 'Profesional',
+                items: [
+                    // Each item here is one entry in the navigation menu.
+                    { label: 'Introducción', slug: 'guides/invierte-como-un-profesional' },
+                    { label: 'MicroCaps', slug: 'guides/invierte-como-un-profesional' },
+                    { label: '...', slug: 'guides/invierte-como-un-profesional' },
                 ],
             },
             {

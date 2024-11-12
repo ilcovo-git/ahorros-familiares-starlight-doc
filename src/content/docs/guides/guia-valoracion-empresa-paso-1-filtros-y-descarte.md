@@ -25,3 +25,17 @@ Existen también otras fuentes de información útiles, como **Investor Club** o
 
 Para aquellos que buscan conocer más detalles, como los **competidores** de una empresa, es útil buscar en los **informes anuales** o utilizar herramientas como **Google** para encontrar la información. Otra herramienta muy subestimada es **ChatGPT** o cualquier otra **inteligencia artificial** con sus agentes/gpt especializado en finanzas y valoraciones. Simplemente preguntando por los competidores o algún dato clave, podéis ahorraros mucho tiempo. Eso sí, siempre es recomendable verificar la información obtenida.
 
+# Resumen : Pasos a Segurir
+
+- **Decisión inicial**: 
+  - ¿Seguimos en el análisis? 
+  - ¿Descartamos la empresa? 
+  - ¿Stand-by?
+
+---
+
+1. **Lectura rápida de la última presentación corporativa de la compañía**.
+2. **Valoración rápida a través de plataformas de información de la compañía**.
+3. **Buscar Tesis de Inversión** en Google y portales especializados.
+4. **Revisar los principales ratios PER y/o EV/EBITDA** para asegurar que están "dentro de la norma".
+5. Utilizar el **notebook de Google** para que nos ayude en esta primera decisión. 
