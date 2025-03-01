@@ -31,14 +31,14 @@ Este es el dato clave que debemos tener en cuenta para **diferenciar entre una e
 
 ### Categorías de Empresa por Market Cap
 
-| **Categoría** | **Market Cap (USD)**               |
-| ------------- | ---------------------------------- |
-| **Mega Cap**  | Más de 200 mil millones            |
-| **Large Cap** | 10 mil millones - 200 mil millones |
-| **Mid Cap**   | 2 mil millones - 10 mil millones   |
-| **Small Cap** | 300 millones - 2 mil millones      |
-| **Micro Cap** | 50 millones - 300 millones         |
-| **Nano Cap**  | Menos de 50 millones               |
+| **Categoría** | **Market Cap (Europa)**            | **Market Cap (US)**        |
+| ------------- | ---------------------------------- | -------------------------- |
+| **Mega Cap**  | Más de 200 mil millones            | Más de 200 billones        |
+| **Large Cap** | 10 mil millones - 200 mil millones | 10 billones - 200 billones |
+| **Mid Cap**   | 2 mil millones - 10 mil millones   | 2 billones- 10 billones    |
+| **Small Cap** | 300 millones - 2 mil millones      | 300 millones - 2 billones  |
+| **Micro Cap** | 50 millones - 300 millones         | 50 millones - 300 millones |
+| **Nano Cap**  | Menos de 50 millones               | Menos de 50 millones       |
 
 
 ### ¿Quién Decide el Número de Acciones?

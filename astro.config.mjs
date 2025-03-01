@@ -6,10 +6,15 @@ import tailwind from '@astrojs/tailwind';
 
 import netlify from '@astrojs/netlify';
 
+
+
 // https://astro.build/config
 export default defineConfig({
     integrations: [starlight({
         tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 4, },
+        logo: {
+            src: './src/assets/af-logo.svg',
+        },
         title: 'A.F. Docs',
         customCss: [
             // Ruta a tus estilos base de Tailwind:
@@ -32,7 +37,7 @@ export default defineConfig({
                     { label: 'Bienvenida', slug: 'guides/bienvenida' },
                     { label: '¿Por qué Ahorros Familiares?', slug: 'guides/porque-ahorros-familiares' },
                     // Each item here is one entry in the navigation menu.
-                    { label: 'Paso a paso Análisis y Valoración de Empresas', slug: 'guides/paso-a-paso-analisis-y-valoración-de-empresas' },
+                    { label: 'Paso a paso Análisis y Valoración de Empresas', slug: 'guides/paso-a-paso-analisis-y-valoracion-de-empresas' },
                     { label: '⭐Valoración Automatizada', slug: 'guides/valoracion-automatizada' },
                     { label: 'Ayuda de Experto', slug: 'guides/ayuda-de-experto' },
                     { label: 'Tutorial: Tesis de una Acción | Ahorros Familiares', slug: 'guides/ejemplo-de-tesis-de-una-accion-en-ahorros-familiares' },
@@ -184,16 +189,32 @@ export default defineConfig({
                 ],
             },
             {
+                label: 'Derivados Value/Growth',
+                items: [
+                    // Each item here is one entry in the navigation menu.
+                    { label: 'Derivados Financieros', slug: 'guides/derivados-financieros' },
+                    { label: 'Opciones Financieras', slug: 'guides/derivados-opciones-financieras' },
+                    { label: 'Características Opciones', slug: 'guides/derivados-caracteristicas-opciones-financieras' },
+                    { label: 'Compras de Call', slug: 'guides/derivados-compra-de-call' },
+                    { label: 'Venta de Call', slug: 'guides/derivados-venta-de-call' },
+                    { label: 'Compra de Put', slug: 'guides/derivados-compra-de-put' },
+                    { label: 'Venta de Put', slug: 'guides/derivados-venta-de-put' },
+                    { label: 'Ejemplos Operativas', slug: 'guides/derivados-ejemplos-de-operativas-financiera' },
+                    { label: 'Value/Growth Investing con Opciones (Put)', slug: 'guides/derivados-value-growth-investing-con-opciones-venta-de-put' },
+                    { label: 'Value/Growth Investing con Opciones (Call)', slug: 'guides/derivados-value-growth-investing-con-opciones-venta-de-call' },
+                    { label: 'Cobertura con Opciones (Clasica)', slug: 'guides/derivados-coberturas-con-opciones-financieras-clasica' },
+                    { label: 'Cobertura con Opciones (Bajo Coste)', slug: 'guides/derivados-coberturas-con-opciones-financieras-bajo-coste' },
+                ],
+            },
+            {
                 label: 'Reference',
                 autogenerate: { directory: 'reference' },
             },
         ],
-    }),
-    tailwind({
+    }), tailwind({
         // Desactiva los estilos base predeterminados:
         applyBaseStyles: false,
-    }),
-    ],
+    }),],
 
     output: 'server',
     adapter: netlify(),

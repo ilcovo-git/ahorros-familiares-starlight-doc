@@ -3,9 +3,6 @@ title: Example Guide
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+En **Ahorros Familiares**, creemos que cada familia merece la oportunidad de construir un futuro seguro. **Invertir a largo plazo** no solo es una decisión financiera, es una forma de proteger y fortalecer el bienestar de los que amas.
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+**Democratizar el ahorro** y la **inversión** significa que cada familia puede dar pasos sólidos hacia un **uturo próspero**. Con Ahorros Familiares, transformar los sueños en **seguridad y estabilidad** está al alcance de todos.
